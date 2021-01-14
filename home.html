@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>formDemo</title>
+</head>
+<style>
+  body{
+    background-color: bisque;
+  }
+  button{
+    padding: 12px 15px ;
+    color: white;
+    background-color: brown;
+  font-size: 20px ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 5px 8px ;
+  border: none;
+  border-radius: 20% 20%;
+  }
+</style>
+<body>
+  <h2>Form Demo</h2>
+  <form action="#" method="POST">
+    <fieldset>
+      <legend>Text input</legend>
+      <label for="name">Text box</label>
+      <input type="text" id="name" name="name"  value="text here"><br><br>
+      <label for="lname">password</label>
+      <input type="password" id="password" name="password" value="******"><br><br>
+      <label for="textarea">Text Area</label>
+      <textarea type="text" id="textarea" name="textarea" placeholder="Your text area" rows="3" cols="80"></textarea>
+      <br><p></p>
+    </fieldset>
+<br>
+    <fieldset>
+      <legend>Selecting elements</legend><br>
+      <label for="name">Select list</label>
+      <select name="list" id="list" style="background-color: rgba(245, 245, 245, 0.966);">
+        <option value="volvo">one</option>
+        <option value="saab">two</option>
+        <option value="opel">three</option>
+        <option value="audi">four</option>
+      </select><br>
+      <br>
+      Check boxes <input type="checkbox" id="egss" name="eggs" value="egge">
+      <label for="eggs"> Green Eggs</label>
+      <input type="checkbox" id="ham" name="ham" value="Ham">
+      <label for="ham"> Ham</label><br><br>
+
+      Radio buttons<input type="radio" id="small" name="size" value="small">
+      <label for="small">small</label>
+      <input type="radio" id="medium" name="size" value="meduim">
+      <label for="medium">medium</label>
+      <input type="radio" id="large" name="size" value="large">
+      <label for="large">large</label><br>
+      <p></p>
+
+    </fieldset>
+    <fieldset>
+      <legend>Button </legend>
+      <br>
+      <button>standrad button </button>
+      <button>input button</button>
+
+      <button type="reset" form="reset" value="Reset">Reset</button>
+      <button type="submit" form="submit" value="Submit">Submit</button>
+      <br>
+      <p></p>
+    </fieldset>
+  </form>
+
+</body>
+
+</html>
